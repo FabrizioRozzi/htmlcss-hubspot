@@ -1,0 +1,100 @@
+  /* GENERALI */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .float-left{
+    float: left;
+  }
+
+  body{
+    min-width: 1400px;
+  }
+
+  .btn{
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+
+  .container-100px{
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+  }
+
+  .container-100px .container-80{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+  }
+
+  .sezione-menu{
+    width: auto;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 1.3%;
+  }
+
+  .menu-destra{
+    padding-top: 0.7%;
+    padding-left: 57%;
+  }
+
+  ul li{
+    width: auto;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 40px;
+  }
+
+  .us, .icona{
+    line-height: 25px;
+  }
+
+  .us{
+    margin-right: 60%;
+    border-left: 1px solid black;
+    margin-top: 1.6%;
+  }
+
+  .get{
+    width: 250px;
+    background-color: #FF765A;
+    color: white;
+    border-color: #FF765A;
+  }
+
+  .get h3{
+    border-color: #FF765A;
+  }
+
+  ul li a{
+    width: 100%;
+    text-decoration: none;
+    color: #3D4F5E;
+  }
+
+  .log h3{
+    color: #FF765A;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    border-color: #FF765A;
+  }
+  
+  .icona{
+   
+   margin-top: 7%;
+  }
+
+
+  
