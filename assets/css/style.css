@@ -22,7 +22,8 @@
   }
 
   body{
-    min-width: 2000px;
+    min-width: 1400px;
+
   }
 
   header{
@@ -37,13 +38,13 @@
   .container-100{
     width: 100%;
     height: 100px;
-    min-width: 2000px;
+    
   }
 
   .container-50{
     width: 50%;
-    height: 500px;
-    border: 1px solid black;
+    height: auto;
+    margin-right: 10%;
   }
 
     /* SEZIONE HEADER  */
@@ -154,13 +155,56 @@
        /* SEZIONE BANNER HEADER  */
   
   .background-header{
+    position: relative;
     width: 100%;
-    height: 500px;
-    
+    height: 690px;
+    background-color: #FEF7EF;
   }     
 
-  .background-header .right{
-    background-image: url(../img/jumbotron.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+  .background-header .jumbotron{
+    position: absolute;
+    right: 0;
   }
+
+  .container-50 h1{
+    font-size: 50px;
+  }
+
+  .container-50 p{
+    margin-top: 5%;
+  }
+
+  .container-50 .font{
+    margin-top: 5%;
+    font-size: 25px;
+  }
+
+  .btn-banner{
+    height: 60px;
+    width: 240px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #FF765A;
+  }
+
+
+  .btn-banner a{
+    line-height: 60px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+  }
+
+  .striscia-verde{
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    background-color: #83DFD5;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    bottom: -0.5%;
+  }
+
+
+  
