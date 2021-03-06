@@ -52,8 +52,6 @@
     /* SEZIONE MENU FISSO  */
 
   .container-80{
-   
- 
     position: relative;
     width: 80%;
     height: 100%;
@@ -198,12 +196,36 @@
 
   .striscia-verde{
     position: absolute;
-    height: 80px;
+    height: 83px;
     width: 100%;
     background-color: #83DFD5;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
-    bottom: -0.5%;
+    bottom: -0.6%;
+  }
+
+  .section-uno{
+    width: 100%;
+    height: 1000px;
+    background-color: #F4F9FD;
+  }
+
+  .section-uno .foto-centro{
+    height: 400px;
+    display:block;
+    margin:0px auto;
+    text-align:center;
+    padding-top: 60px;
+  }
+  
+  .section-uno .centro{
+    display:block;
+    margin:0px auto;
+    text-align:center;
+  }
+
+  .section-uno p{
+    padding-top: 100px;
   }
 
 
