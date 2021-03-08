@@ -30,6 +30,10 @@
     width: 100%;
   }
 
+  main{
+    background-color: #F4F9FD;
+  }
+
   .btn{
     border-radius: 5px;
     border: 1px solid black;
@@ -41,22 +45,28 @@
     
   }
 
-  .container-50{
-    width: 50%;
-    height: auto;
-    margin-right: 10%;
-  }
-
-    /* SEZIONE HEADER  */
-
-    /* SEZIONE MENU FISSO  */
-
   .container-80{
     position: relative;
     width: 80%;
     height: 100%;
     margin: auto;
   }
+
+  .container-50{
+    width: 50%;
+    height: auto;
+    margin-right: 10%;
+  }
+  
+  .container-immagini{
+    width: 250px;
+  }
+
+    /* SEZIONE HEADER  */
+
+    /* SEZIONE MENU FISSO  */
+
+  
   .background{
     background-color: #F4F9FD;
     border-bottom: 1px solid black;
@@ -183,6 +193,7 @@
     border-radius: 5px;
     border: 1px solid black;
     background-color: #FF765A;
+    text-align: center;
   }
 
 
@@ -204,10 +215,13 @@
     bottom: -0.6%;
   }
 
+    /* MAIN  */
+
+    /* SEZIONE UNO  */
+
   .section-uno{
-    width: 100%;
-    height: 1000px;
-    background-color: #F4F9FD;
+    width: 50%;
+    margin: auto;
   }
 
   .section-uno .foto-centro{
@@ -225,8 +239,35 @@
   }
 
   .section-uno p{
+    padding-top: 50px;
+  }
+
+    /* SEZIONE DUE  */
+
+
+  .section-due{
+    margin-top: 50px;
+  }
+
+  .section-due .container-80 {
+    height: 1000px;
+   
+    background-color: white;
+    border: 4px solid #E9EEF1;
+    border-radius: 5px;
+  }  
+
+  .section-due .container-80 .sezione-due-left{
+    width: 40%;
+    background-color: violet;
+  }
+
+  .sezione-due-left .container-immagini{
+    padding-left: 150px;
     padding-top: 100px;
   }
 
-
+  .sezione-due-left .btn-banner{
+    margin-left: 150px;
+  }
   
