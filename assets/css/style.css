@@ -488,12 +488,15 @@ ul {
 }
 
 .section-cinque .container-100 .container-80 .loghi-destra ul{
+  width: 100%;
   margin-top: 50px;
+  margin-left: 20%;
 }
 
 .section-cinque .container-100 .container-80 .loghi-destra ul li{
   display: inline;
   vertical-align: middle;
+  width: 20%;
 }
 
 .section-cinque .container-100 .container-80 .loghi-destra ul li img{
