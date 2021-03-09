@@ -28,7 +28,8 @@
 }
 
 body {
-  min-width: 1400px;
+  min-width: 1200px;
+  max-width: 1600px;
 }
 
 header {
@@ -471,6 +472,10 @@ ul {
   padding-top: 50px;
 }
 
+.section-cinque .container-100 .container-80 .testo-sinistra p{
+  font-size: 20px;
+}
+
 .section-cinque .container-100 .container-80 .loghi-destra{
   width: 77%;
   margin-left: 5%;
@@ -487,6 +492,14 @@ ul {
 
 .section-cinque .container-100 .container-80 .loghi-destra ul li img{
   width: 20%;
+}
+
+.section-cinque .container-100  .container-50{
+  height: 500px;
+  width: 50%;
+  margin-top: 100px;
+  background-color: white;
+  border: 1px solid black;
 }
 
 /* / SEZIONE CINQUE */
