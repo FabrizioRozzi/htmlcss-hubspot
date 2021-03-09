@@ -29,7 +29,7 @@
 
 body {
   min-width: 1200px;
-  max-width: 1600px;
+ 
 }
 
 header {
@@ -500,11 +500,41 @@ ul {
   width: 20%;
 }
 
+
+/* / SEZIONE CINQUE */
+
+/* SEZIONE SEI */
+
 .section-sei .container-100 .container-80 .container-50{
   height: 500px;
   width: 49%;
   margin-top: 100px;
-  background-color: violet;
 }
 
-/* / SEZIONE CINQUE */
+.section-sei .container-100 .container-80 .sinistra{
+  padding-right: 15%;
+}
+
+.section-sei .container-100 .container-80 .container-50 h1{
+  font-size: 30px;
+}
+
+.section-sei .container-100 .container-80 .container-50 .btn-banner {
+  width: 70%;
+  margin-top: 40px
+}
+
+.section-sei .container-100 .container-80 .container-50 p{
+  font-size: 17px;
+}
+
+.section-sei .container-100 .container-80 .container-50 .btn-banner a{
+  font-size: 17px;
+}
+.section-sei .container-100 .container-80 .container-50 .piccolo{
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+
+/* / SEZIONE SEI */
