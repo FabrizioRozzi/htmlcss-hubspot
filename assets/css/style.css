@@ -494,12 +494,11 @@ ul {
   width: 20%;
 }
 
-.section-cinque .container-100  .container-50{
+.section-cinque .container-100 .container-50{
   height: 500px;
   width: 50%;
   margin-top: 100px;
-  background-color: white;
-  border: 1px solid black;
+  background-color: violet;
 }
 
 /* / SEZIONE CINQUE */
