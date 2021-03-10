@@ -28,12 +28,14 @@
 }
 
 body {
-  min-width: 1200px;
- 
+  min-width: 1400px;
+  max-width: 1800px;
+  margin: auto;
 }
 
 header {
   width: 100%;
+  margin: auto;
 }
 
 main {
@@ -48,6 +50,9 @@ main {
 .container-100-1 {
   width: 100%;
   height:100px;
+  min-width: 1400px;
+  max-width: 1800px;
+  margin: auto;
 }
 
 .container-100 {
@@ -263,6 +268,7 @@ ul li a {
   height: auto;
   margin-left: 10%;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .testo-destra {
@@ -515,7 +521,8 @@ ul {
 }
 
 .section-sei .container-100 .container-80 .sinistra{
-  padding-right: 15%;
+  padding-right: 25%;
+  width: 50%;
 }
 
 .section-sei .container-100 .container-80 .container-50 h1{
@@ -539,5 +546,90 @@ ul {
   font-size: 14px;
 }
 
+.section-sei .container-100 .container-80 .container-50 img{
+  width: 40%;
+  margin-left: 60%;
+}
 
 /* / SEZIONE SEI */
+
+/* FOOTER  */
+
+footer .container-100{
+  background-color: #32495B;
+
+}
+
+footer .container-100 .container-80{
+  height: auto;
+  text-align: center;
+}
+
+footer .container-100 .container-80 .blocco-footer{
+  width: 25%;
+  text-align: left;
+}
+
+footer .container-100 .container-80 .blocco-footer h3{
+ padding-top: 40px;
+ color: white;
+}
+
+footer .container-100 .container-80 .blocco-footer a{
+  font-size: 15px;
+  color: white;
+  line-height: 35px;
+}
+
+footer .container-100 .container-80 .blocco-footer .btn-banner{
+  margin-top: 10px;
+  background-color: #DADEE0;
+  border-color: #DADEE0;
+  color: #32495B;
+}
+
+.inline{
+  display: inline-block;
+  color: white;
+  margin-top: 20px;
+}
+
+footer .container-100 .container-80 .blocco-footer .inline i{
+  margin-right: 20px;
+}
+
+footer .container-100 .container-80 .traduttore{
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+footer .container-100 .container-80 .traduttore li{
+  display: inline-block;
+  margin-top: 100px;  
+  margin-bottom: 30px;
+}
+
+footer .container-100  li a{
+  color: white;
+}
+
+footer .container-100 .container-80-2{
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+footer .container-100 .container-80-2 .container-immagini{
+  margin-top: 40px;
+  margin-right: 60%;
+}
+
+footer .container-100 .container-80-2 h2{
+  width: 50%;
+  color: white;
+  margin-bottom: 50px;
+}
+
+footer .container-100 .container-80-2 a{
+  font-size: 20px;
+}
